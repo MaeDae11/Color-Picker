@@ -11,7 +11,9 @@ class Button extends Component {
 
     render(){
         return(
-            <button>
+            <button
+                className={ this.props.light ? 'light-button' : 'dark-button' }>
+				Refresh
             </button>
         )
     };
