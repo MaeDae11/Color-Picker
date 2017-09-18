@@ -66,7 +66,8 @@ class Random extends Component {
 }
 
 ```
-#Snapshots
+<h2>Snapshots</h2>
+<br />
 <img src="./src/example1.png" alt="blue background with lightblue button" width="300">
 <h4>Initial state of RGB</h4>
 <br />
