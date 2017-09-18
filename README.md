@@ -1,12 +1,12 @@
-#Color Picker
+<h1>Color Picker</h1>
 
-#Overall
+<h2>Overall</h2>
 <p>React exercise with functions, components, and passing in props</p>
 <p>When button is clicked, chooseColor function is called to randomly choose 3 numbers between 1 and 256. This creates a RGB color which changes the state of className (associated with the background and button color).</p>
 
 
-#Code snippits
-<h4>Showing how RGB is randomized, formatted, and effects background and button color.</h4>
+<h2>Code snippits</h2>
+<h4>Code snippit goes through process of Random class, how RGB is randomized, formatted, and effects background and button color.</h4>
 
 ```javascript
 
@@ -67,11 +67,11 @@ class Random extends Component {
 
 ```
 #Snapshots
-<img src="/example1.png" alt="blue background with lightblue button">
+<img src="./src/example1.png" alt="blue background with lightblue button" width="300">
 <h4>Initial state of RGB</h4>
 <br />
-<img src="/example2.png" alt="bright pink background with lighter pink button">
+<img src="./src/example2.png" alt="bright pink background with lighter pink button" width="300">
 <h4>Random state after button clicked</h4>
 <br />
-<img src="/example3.png" alt="lgiht blue background with darker button">
+<img src="./src/example3.png" alt="lgiht blue background with darker button" width="300">
 <h4>Showing button color change dependant on background color</h4>
